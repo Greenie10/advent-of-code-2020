@@ -13,23 +13,21 @@ try {
 
   for (let i = 0, length = output.length; i < length; i++) {
     let x = output[i][3];
-    const password = x.split("").sort().join("");
+    let letter = output[i][2];
     let min = output[i][0];
     let max = output[i][1];
-    let letter = output[i][2];
+    const password = x.split("").filter((l) => l === letter);
 
-    let re = new RegExp(`${letter}{${min},${max}}`);
-    if (re.test(password)) {
+    if (password.length >= min && password.length <= max) {
       count++;
+      console.log(
+        output[i][0],
+        output[i][1],
+        output[i][2],
+        password.length,
+        count
+      );
     }
-    console.log(
-      output[i][0],
-      output[i][1],
-      output[i][2],
-      password,
-      re.test(password),
-      count
-    );
   }
 } catch (err) {
   console.error(err);
