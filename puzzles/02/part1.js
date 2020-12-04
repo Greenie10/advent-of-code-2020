@@ -18,18 +18,11 @@ try {
     let max = output[i][1];
     let letter = output[i][2];
 
-    let re = new RegExp(`${letter}{${min},${max}}`);
-    if (re.test(password)) {
+    let res = password.match(`${letter}{1}`).length;
+    if ((max - res) * (res - min) > -1) {
       count++;
+      console.log(output[i][0], output[i][1], output[i][2], x);
     }
-    console.log(
-      output[i][0],
-      output[i][1],
-      output[i][2],
-      password,
-      re.test(password),
-      count
-    );
   }
 } catch (err) {
   console.error(err);

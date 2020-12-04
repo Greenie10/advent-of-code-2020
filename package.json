@@ -4,7 +4,7 @@
   "description": "My stabs at https://adventofcode.com/2020 puzzles.",
   "main": "index.js",
   "scripts": {
-    "start": "node puzzles/02/part1-again.js",
+    "start": "node puzzles/02/part2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
