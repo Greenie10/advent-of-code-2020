@@ -1,0 +1,1661 @@
+
+> advent-of-code-2020@1.0.0 start /Users/lauragreen/GitHub/advent-of-code-2020
+> node puzzles/04/part1.js
+
+keysPresent [
+  'eyr', 'hgt',
+  'hcl', 'pid',
+  'byr', 'ecl',
+  'iyr', 'cid'
+]
+keysPresent [
+  'hcl', 'ecl',
+  'eyr', 'iyr',
+  'pid', 'byr',
+  'cid', 'hgt'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'hgt', 'pid',
+  'ecl', 'hcl',
+  'byr'
+]
+keysPresent [
+  'pid', 'eyr',
+  'ecl', 'cid',
+  'iyr', 'hcl',
+  'byr', 'hgt'
+]
+keysPresent [
+  'byr', 'hgt',
+  'ecl', 'eyr',
+  'pid', 'hcl',
+  'iyr'
+]
+keysPresent [
+  'hcl', 'hgt',
+  'iyr', 'byr',
+  'ecl', 'pid',
+  'cid', 'eyr'
+]
+keysPresent [
+  'hcl', 'cid',
+  'hgt', 'eyr',
+  'pid', 'byr',
+  'ecl', 'iyr'
+]
+keysPresent [ 'hcl', 'byr', 'eyr', 'iyr', 'pid', 'ecl' ]
+keysPresent [
+  'ecl', 'pid',
+  'byr', 'hcl',
+  'eyr', 'hgt',
+  'iyr'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'byr', 'hgt',
+  'ecl', 'pid',
+  'hcl'
+]
+keysPresent [
+  'byr', 'hcl',
+  'cid', 'pid',
+  'hgt', 'eyr',
+  'ecl', 'iyr'
+]
+keysPresent [
+  'pid', 'hgt',
+  'ecl', 'iyr',
+  'byr', 'eyr',
+  'hcl'
+]
+keysPresent [
+  'byr', 'hcl',
+  'ecl', 'eyr',
+  'pid', 'iyr',
+  'hgt'
+]
+keysPresent [
+  'pid', 'hgt',
+  'iyr', 'byr',
+  'cid', 'ecl',
+  'eyr', 'hcl'
+]
+keysPresent [ 'hcl', 'byr', 'eyr', 'ecl', 'hgt', 'pid' ]
+keysPresent [
+  'hgt', 'hcl',
+  'ecl', 'byr',
+  'iyr', 'pid',
+  'eyr'
+]
+keysPresent [
+  'cid', 'byr',
+  'eyr', 'hgt',
+  'hcl', 'iyr',
+  'ecl', 'pid'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'byr', 'ecl',
+  'iyr', 'hcl',
+  'pid', 'cid'
+]
+keysPresent [
+  'ecl', 'iyr',
+  'hcl', 'pid',
+  'hgt', 'eyr',
+  'byr'
+]
+keysPresent [
+  'hcl', 'ecl',
+  'byr', 'hgt',
+  'eyr', 'pid',
+  'iyr'
+]
+keysPresent [
+  'cid', 'hcl',
+  'ecl', 'pid',
+  'hgt', 'byr',
+  'eyr', 'iyr'
+]
+keysPresent [
+  'eyr', 'iyr',
+  'pid', 'hgt',
+  'ecl', 'byr',
+  'hcl'
+]
+keysPresent [
+  'cid', 'eyr',
+  'pid', 'ecl',
+  'byr', 'iyr',
+  'hcl', 'hgt'
+]
+keysPresent [
+  'byr', 'hcl',
+  'pid', 'iyr',
+  'hgt', 'eyr',
+  'ecl'
+]
+keysPresent [
+  'hcl', 'eyr',
+  'ecl', 'iyr',
+  'byr', 'hgt',
+  'pid'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'eyr', 'ecl',
+  'pid', 'byr',
+  'iyr'
+]
+keysPresent [
+  'cid', 'byr',
+  'eyr', 'hgt',
+  'hcl', 'pid',
+  'ecl', 'iyr'
+]
+keysPresent [
+  'hgt', 'pid',
+  'eyr', 'iyr',
+  'ecl', 'hcl',
+  'byr'
+]
+keysPresent [
+  'iyr', 'hcl',
+  'eyr', 'byr',
+  'pid', 'ecl',
+  'hgt'
+]
+keysPresent [
+  'pid', 'hcl',
+  'iyr', 'ecl',
+  'cid', 'byr',
+  'hgt', 'eyr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'pid', 'ecl',
+  'iyr', 'hcl',
+  'byr'
+]
+keysPresent [
+  'hcl', 'ecl',
+  'eyr', 'pid',
+  'iyr', 'cid',
+  'hgt', 'byr'
+]
+keysPresent [
+  'hgt', 'iyr',
+  'pid', 'eyr',
+  'ecl', 'byr',
+  'hcl'
+]
+keysPresent [ 'ecl', 'hgt', 'iyr', 'hcl', 'byr', 'pid' ]
+keysPresent [
+  'hcl', 'hgt',
+  'byr', 'cid',
+  'iyr', 'pid',
+  'eyr', 'ecl'
+]
+keysPresent [
+  'ecl', 'iyr',
+  'pid', 'hcl',
+  'hgt', 'eyr',
+  'byr'
+]
+keysPresent [
+  'iyr', 'hgt',
+  'byr', 'pid',
+  'cid', 'eyr',
+  'ecl', 'hcl'
+]
+keysPresent [
+  'hcl', 'cid',
+  'byr', 'eyr',
+  'pid', 'hgt',
+  'ecl', 'iyr'
+]
+keysPresent [
+  'eyr', 'iyr',
+  'ecl', 'hgt',
+  'pid', 'hcl',
+  'cid', 'byr'
+]
+keysPresent [ 'iyr', 'pid', 'eyr', 'cid', 'ecl', 'hgt' ]
+keysPresent [
+  'eyr', 'hgt',
+  'pid', 'hcl',
+  'ecl', 'byr',
+  'iyr'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'ecl', 'hcl',
+  'pid', 'cid',
+  'byr', 'hgt'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'pid', 'iyr',
+  'hcl', 'cid',
+  'ecl', 'byr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'hcl', 'byr',
+  'eyr', 'pid',
+  'iyr'
+]
+keysPresent [
+  'cid', 'byr',
+  'iyr', 'eyr',
+  'ecl', 'pid',
+  'hcl'
+]
+keysPresent [
+  'ecl', 'eyr',
+  'cid', 'byr',
+  'hgt', 'pid',
+  'iyr', 'hcl'
+]
+keysPresent [
+  'byr', 'hcl',
+  'pid', 'iyr',
+  'eyr', 'hgt',
+  'cid', 'ecl'
+]
+keysPresent [
+  'ecl', 'hcl',
+  'iyr', 'pid',
+  'byr', 'hgt',
+  'eyr'
+]
+keysPresent [
+  'hcl', 'eyr',
+  'ecl', 'hgt',
+  'byr', 'pid',
+  'iyr'
+]
+keysPresent [
+  'eyr', 'pid',
+  'ecl', 'byr',
+  'iyr', 'hgt',
+  'hcl'
+]
+keysPresent [
+  'iyr', 'pid',
+  'eyr', 'ecl',
+  'hgt', 'hcl',
+  'byr'
+]
+keysPresent [
+  'iyr', 'pid',
+  'eyr', 'hgt',
+  'hcl', 'ecl',
+  'byr'
+]
+keysPresent [
+  'hcl', 'byr',
+  'ecl', 'cid',
+  'eyr', 'hgt',
+  'iyr', 'pid'
+]
+keysPresent [
+  'iyr', 'hgt',
+  'pid', 'hcl',
+  'byr', 'cid',
+  'eyr', 'ecl'
+]
+keysPresent [
+  'iyr', 'cid',
+  'ecl', 'pid',
+  'eyr', 'byr',
+  'hcl', 'hgt'
+]
+keysPresent [
+  'eyr', 'hcl',
+  'ecl', 'pid',
+  'byr', 'hgt',
+  'iyr'
+]
+keysPresent [
+  'iyr', 'ecl',
+  'eyr', 'hcl',
+  'byr', 'hgt',
+  'pid'
+]
+keysPresent [
+  'eyr', 'pid',
+  'iyr', 'hgt',
+  'ecl', 'byr',
+  'hcl'
+]
+keysPresent [
+  'byr', 'hgt',
+  'cid', 'eyr',
+  'ecl', 'hcl',
+  'pid', 'iyr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'pid', 'hcl',
+  'byr', 'eyr',
+  'iyr'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'byr', 'pid',
+  'ecl', 'eyr',
+  'cid', 'iyr'
+]
+keysPresent [
+  'eyr', 'ecl',
+  'iyr', 'byr',
+  'hgt', 'hcl',
+  'pid', 'cid'
+]
+keysPresent [
+  'eyr', 'pid',
+  'hcl', 'ecl',
+  'iyr', 'byr',
+  'hgt'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'ecl', 'byr',
+  'pid', 'eyr',
+  'cid', 'hgt'
+]
+keysPresent [
+  'cid', 'hcl',
+  'pid', 'iyr',
+  'eyr', 'hgt',
+  'ecl', 'byr'
+]
+keysPresent [
+  'hgt', 'byr',
+  'ecl', 'eyr',
+  'cid', 'hcl',
+  'pid', 'iyr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'cid', 'ecl',
+  'iyr', 'hcl',
+  'pid', 'byr'
+]
+keysPresent [ 'eyr', 'hcl', 'ecl', 'pid', 'hgt', 'iyr' ]
+keysPresent [ 'byr', 'hcl', 'eyr', 'ecl', 'iyr', 'pid' ]
+keysPresent [
+  'eyr', 'ecl',
+  'byr', 'hcl',
+  'iyr', 'pid',
+  'hgt'
+]
+keysPresent [
+  'iyr', 'ecl',
+  'hgt', 'eyr',
+  'cid', 'hcl',
+  'byr', 'pid'
+]
+keysPresent [
+  'eyr', 'cid',
+  'byr', 'pid',
+  'hcl', 'iyr',
+  'hgt', 'ecl'
+]
+keysPresent [ 'pid', 'hgt', 'iyr', 'ecl', 'hcl', 'eyr' ]
+keysPresent [
+  'iyr', 'pid',
+  'hgt', 'cid',
+  'hcl', 'ecl',
+  'eyr', 'byr'
+]
+keysPresent [
+  'hcl', 'byr',
+  'hgt', 'ecl',
+  'iyr', 'cid',
+  'pid', 'eyr'
+]
+keysPresent [
+  'hcl', 'pid',
+  'iyr', 'ecl',
+  'eyr', 'hgt',
+  'byr'
+]
+keysPresent [
+  'pid', 'eyr',
+  'hgt', 'iyr',
+  'byr', 'hcl',
+  'ecl'
+]
+keysPresent [
+  'hcl', 'eyr',
+  'iyr', 'hgt',
+  'byr', 'pid',
+  'ecl'
+]
+keysPresent [ 'byr', 'iyr', 'hgt', 'hcl', 'eyr' ]
+keysPresent [
+  'cid', 'iyr',
+  'eyr', 'byr',
+  'hgt', 'pid',
+  'hcl', 'ecl'
+]
+keysPresent [
+  'hcl', 'pid',
+  'byr', 'cid',
+  'eyr', 'hgt',
+  'iyr', 'ecl'
+]
+keysPresent [
+  'eyr', 'pid',
+  'hgt', 'hcl',
+  'ecl', 'iyr',
+  'byr'
+]
+keysPresent [
+  'hcl', 'byr',
+  'cid', 'pid',
+  'ecl', 'eyr',
+  'iyr', 'hgt'
+]
+keysPresent [
+  'eyr', 'cid',
+  'ecl', 'pid',
+  'hcl', 'iyr',
+  'hgt', 'byr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'pid', 'iyr',
+  'hcl', 'ecl',
+  'cid', 'byr'
+]
+keysPresent [
+  'hcl', 'eyr',
+  'ecl', 'hgt',
+  'byr', 'pid',
+  'iyr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'byr', 'eyr',
+  'iyr', 'pid',
+  'hcl'
+]
+keysPresent [ 'pid', 'byr', 'eyr', 'hgt', 'hcl', 'ecl' ]
+keysPresent [
+  'iyr', 'ecl',
+  'pid', 'hgt',
+  'hcl', 'byr',
+  'eyr'
+]
+keysPresent [
+  'pid', 'hcl',
+  'iyr', 'eyr',
+  'byr', 'hgt',
+  'ecl'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'pid', 'iyr',
+  'ecl', 'eyr',
+  'byr'
+]
+keysPresent [
+  'hcl', 'eyr',
+  'iyr', 'ecl',
+  'hgt', 'byr',
+  'pid'
+]
+keysPresent [
+  'hgt', 'pid',
+  'ecl', 'iyr',
+  'eyr', 'hcl',
+  'cid', 'byr'
+]
+keysPresent [
+  'byr', 'pid',
+  'ecl', 'eyr',
+  'hgt', 'hcl',
+  'iyr', 'cid'
+]
+keysPresent [
+  'byr', 'pid',
+  'eyr', 'iyr',
+  'ecl', 'hgt',
+  'hcl', 'cid'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'byr', 'eyr',
+  'cid', 'ecl',
+  'hgt', 'pid'
+]
+keysPresent [
+  'hgt', 'eyr',
+  'pid', 'byr',
+  'iyr', 'hcl',
+  'cid', 'ecl'
+]
+keysPresent [
+  'hgt', 'pid',
+  'byr', 'eyr',
+  'ecl', 'cid',
+  'iyr', 'hcl'
+]
+keysPresent [
+  'iyr', 'ecl',
+  'pid', 'hcl',
+  'eyr', 'byr',
+  'hgt'
+]
+keysPresent [
+  'hcl', 'hgt',
+  'eyr', 'ecl',
+  'byr', 'pid',
+  'iyr', 'cid'
+]
+keysPresent [
+  'byr', 'hgt',
+  'iyr', 'hcl',
+  'ecl', 'cid',
+  'eyr', 'pid'
+]
+keysPresent [
+  'hcl', 'cid',
+  'byr', 'hgt',
+  'eyr', 'pid',
+  'iyr', 'ecl'
+]
+keysPresent [
+  'byr', 'iyr',
+  'ecl', 'hcl',
+  'hgt', 'pid',
+  'eyr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'hcl', 'pid',
+  'ecl', 'cid',
+  'byr', 'iyr'
+]
+keysPresent [
+  'cid', 'eyr',
+  'byr', 'ecl',
+  'hgt', 'pid',
+  'hcl'
+]
+keysPresent [
+  'eyr', 'iyr',
+  'hgt', 'cid',
+  'byr', 'pid',
+  'ecl', 'hcl'
+]
+keysPresent [
+  'pid', 'hgt',
+  'hcl', 'cid',
+  'byr', 'iyr',
+  'ecl', 'eyr'
+]
+keysPresent [
+  'eyr', 'iyr',
+  'ecl', 'pid',
+  'cid', 'byr',
+  'hgt', 'hcl'
+]
+keysPresent [
+  'byr', 'pid',
+  'eyr', 'ecl',
+  'hgt', 'hcl',
+  'iyr'
+]
+keysPresent [
+  'hgt', 'iyr',
+  'ecl', 'pid',
+  'hcl', 'byr',
+  'eyr'
+]
+keysPresent [
+  'byr', 'iyr',
+  'eyr', 'hcl',
+  'hgt', 'pid',
+  'ecl'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'byr', 'ecl',
+  'pid', 'eyr',
+  'iyr'
+]
+keysPresent [
+  'hgt', 'iyr',
+  'cid', 'pid',
+  'byr', 'hcl',
+  'ecl', 'eyr'
+]
+keysPresent [
+  'byr', 'ecl',
+  'hgt', 'eyr',
+  'iyr', 'pid',
+  'hcl', 'cid'
+]
+keysPresent [
+  'eyr', 'pid',
+  'byr', 'ecl',
+  'iyr', 'hgt',
+  'hcl'
+]
+keysPresent [
+  'cid', 'hcl',
+  'ecl', 'hgt',
+  'iyr', 'pid',
+  'byr', 'eyr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'byr', 'iyr',
+  'hcl', 'ecl',
+  'pid'
+]
+keysPresent [
+  'cid', 'hcl',
+  'pid', 'hgt',
+  'ecl', 'eyr',
+  'iyr', 'byr'
+]
+keysPresent [
+  'byr', 'pid',
+  'hcl', 'ecl',
+  'iyr', 'cid',
+  'eyr', 'hgt'
+]
+keysPresent [
+  'hcl', 'byr',
+  'pid', 'hgt',
+  'ecl', 'iyr',
+  'eyr'
+]
+keysPresent [
+  'hgt', 'byr',
+  'eyr', 'pid',
+  'cid', 'ecl',
+  'iyr', 'hcl'
+]
+keysPresent [
+  'byr', 'eyr',
+  'iyr', 'hcl',
+  'ecl', 'cid',
+  'pid', 'hgt'
+]
+keysPresent [
+  'hgt', 'ecl',
+  'pid', 'byr',
+  'hcl', 'iyr',
+  'eyr'
+]
+keysPresent [
+  'iyr', 'byr',
+  'cid', 'ecl',
+  'eyr', 'pid',
+  'hgt', 'hcl'
+]
+keysPresent [
+  'hgt', 'eyr',
+  'ecl', 'hcl',
+  'iyr', 'byr',
+  'pid'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'ecl', 'cid',
+  'byr', 'pid',
+  'hcl', 'hgt'
+]
+keysPresent [
+  'byr', 'eyr',
+  'ecl', 'hgt',
+  'pid', 'iyr',
+  'hcl'
+]
+keysPresent [
+  'byr', 'ecl',
+  'pid', 'iyr',
+  'hcl', 'hgt',
+  'cid'
+]
+keysPresent [
+  'eyr', 'byr',
+  'iyr', 'ecl',
+  'pid', 'hcl',
+  'cid', 'hgt'
+]
+keysPresent [
+  'byr', 'pid',
+  'eyr', 'hgt',
+  'hcl', 'iyr',
+  'ecl'
+]
+keysPresent [
+  'byr', 'pid',
+  'cid', 'hcl',
+  'iyr', 'ecl',
+  'eyr'
+]
+keysPresent [
+  'ecl', 'iyr',
+  'eyr', 'pid',
+  'hgt', 'byr',
+  'hcl'
+]
+keysPresent [
+  'hgt', 'pid',
+  'ecl', 'hcl',
+  'iyr', 'eyr',
+  'byr', 'cid'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'byr', 'eyr',
+  'pid', 'cid',
+  'iyr', 'ecl'
+]
+keysPresent [
+  'ecl', 'hcl',
+  'pid', 'iyr',
+  'cid', 'byr',
+  'eyr', 'hgt'
+]
+keysPresent [
+  'byr', 'iyr',
+  'pid', 'hcl',
+  'ecl', 'eyr',
+  'hgt'
+]
+keysPresent [ 'hcl', 'hgt', 'eyr', 'cid', 'byr', 'ecl' ]
+keysPresent [
+  'byr', 'cid',
+  'hgt', 'eyr',
+  'pid', 'hcl',
+  'iyr', 'ecl'
+]
+keysPresent [
+  'hcl', 'cid',
+  'eyr', 'pid',
+  'ecl', 'iyr',
+  'hgt', 'byr'
+]
+keysPresent [
+  'iyr', 'byr',
+  'eyr', 'hcl',
+  'hgt', 'ecl',
+  'cid', 'pid'
+]
+keysPresent [ 'hcl', 'eyr', 'hgt', 'byr', 'ecl', 'pid' ]
+keysPresent [
+  'hgt', 'ecl',
+  'cid', 'byr',
+  'pid', 'hcl',
+  'eyr', 'iyr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'eyr', 'cid',
+  'iyr', 'hcl',
+  'pid', 'byr'
+]
+keysPresent [
+  'eyr', 'pid',
+  'cid', 'hgt',
+  'hcl', 'byr',
+  'iyr', 'ecl'
+]
+keysPresent [
+  'byr', 'hgt',
+  'hcl', 'iyr',
+  'ecl', 'pid',
+  'eyr'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'hgt', 'eyr',
+  'pid', 'ecl',
+  'byr'
+]
+keysPresent [
+  'pid', 'iyr',
+  'hcl', 'byr',
+  'eyr', 'hgt',
+  'ecl'
+]
+keysPresent [
+  'hcl', 'cid',
+  'iyr', 'byr',
+  'hgt', 'eyr',
+  'pid', 'ecl'
+]
+keysPresent [
+  'eyr', 'ecl',
+  'cid', 'pid',
+  'hgt', 'iyr',
+  'hcl', 'byr'
+]
+keysPresent [
+  'hgt', 'iyr',
+  'byr', 'eyr',
+  'pid', 'ecl',
+  'cid', 'hcl'
+]
+keysPresent [
+  'eyr', 'pid',
+  'iyr', 'hcl',
+  'ecl', 'byr',
+  'hgt'
+]
+keysPresent [
+  'hcl', 'hgt',
+  'ecl', 'iyr',
+  'eyr', 'cid',
+  'byr', 'pid'
+]
+keysPresent [
+  'iyr', 'byr',
+  'cid', 'pid',
+  'hgt', 'ecl',
+  'eyr', 'hcl'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'byr', 'pid',
+  'iyr', 'eyr',
+  'ecl'
+]
+keysPresent [
+  'eyr', 'hcl',
+  'ecl', 'hgt',
+  'cid', 'byr',
+  'iyr', 'pid'
+]
+keysPresent [
+  'ecl', 'cid',
+  'hgt', 'hcl',
+  'byr', 'iyr',
+  'eyr'
+]
+keysPresent [
+  'ecl', 'pid',
+  'iyr', 'eyr',
+  'byr', 'hcl',
+  'hgt', 'cid'
+]
+keysPresent [
+  'cid', 'pid',
+  'eyr', 'hcl',
+  'ecl', 'iyr',
+  'byr', 'hgt'
+]
+keysPresent [
+  'cid', 'pid',
+  'hcl', 'byr',
+  'ecl', 'iyr',
+  'eyr', 'hgt'
+]
+keysPresent [ 'hcl', 'byr', 'hgt', 'iyr', 'eyr', 'ecl' ]
+keysPresent [
+  'pid', 'eyr',
+  'byr', 'hcl',
+  'ecl', 'hgt',
+  'iyr', 'cid'
+]
+keysPresent [
+  'byr', 'eyr',
+  'pid', 'ecl',
+  'cid', 'hcl',
+  'hgt', 'iyr'
+]
+keysPresent [
+  'pid', 'hcl',
+  'ecl', 'byr',
+  'eyr', 'cid',
+  'hgt', 'iyr'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'pid', 'iyr',
+  'eyr', 'cid',
+  'byr', 'ecl'
+]
+keysPresent [
+  'pid', 'iyr',
+  'ecl', 'hgt',
+  'hcl', 'byr',
+  'eyr'
+]
+keysPresent [
+  'cid', 'ecl',
+  'pid', 'hcl',
+  'iyr', 'hgt',
+  'byr'
+]
+keysPresent [ 'pid', 'eyr', 'byr', 'hgt', 'iyr', 'hcl' ]
+keysPresent [
+  'cid', 'hgt',
+  'byr', 'pid',
+  'ecl', 'hcl',
+  'iyr', 'eyr'
+]
+keysPresent [
+  'pid', 'eyr',
+  'ecl', 'iyr',
+  'byr', 'cid',
+  'hcl', 'hgt'
+]
+keysPresent [
+  'eyr', 'byr',
+  'cid', 'ecl',
+  'iyr', 'hgt',
+  'hcl', 'pid'
+]
+keysPresent [
+  'byr', 'pid',
+  'eyr', 'ecl',
+  'hcl', 'hgt',
+  'cid', 'iyr'
+]
+keysPresent [
+  'byr', 'hcl',
+  'hgt', 'pid',
+  'eyr', 'ecl',
+  'iyr'
+]
+keysPresent [
+  'ecl', 'eyr',
+  'byr', 'hcl',
+  'iyr', 'pid',
+  'hgt'
+]
+keysPresent [
+  'pid', 'hgt',
+  'ecl', 'hcl',
+  'eyr', 'byr',
+  'iyr', 'cid'
+]
+keysPresent [
+  'hcl', 'hgt',
+  'byr', 'eyr',
+  'iyr', 'ecl',
+  'pid'
+]
+keysPresent [
+  'pid', 'iyr',
+  'eyr', 'ecl',
+  'hgt', 'byr',
+  'hcl'
+]
+keysPresent [
+  'ecl', 'byr',
+  'eyr', 'pid',
+  'iyr', 'hgt',
+  'hcl', 'cid'
+]
+keysPresent [
+  'eyr', 'pid',
+  'hgt', 'iyr',
+  'ecl', 'byr',
+  'hcl'
+]
+keysPresent [
+  'hgt', 'byr',
+  'cid', 'hcl',
+  'ecl', 'iyr',
+  'eyr', 'pid'
+]
+keysPresent [
+  'iyr', 'cid',
+  'eyr', 'pid',
+  'byr', 'hcl',
+  'ecl', 'hgt'
+]
+keysPresent [
+  'eyr', 'pid',
+  'hgt', 'hcl',
+  'ecl', 'byr',
+  'iyr'
+]
+keysPresent [
+  'hcl', 'pid',
+  'byr', 'ecl',
+  'iyr', 'hgt',
+  'eyr'
+]
+keysPresent [
+  'eyr', 'iyr',
+  'pid', 'byr',
+  'cid', 'ecl',
+  'hgt', 'hcl'
+]
+keysPresent [
+  'iyr', 'hgt',
+  'byr', 'pid',
+  'eyr', 'cid',
+  'ecl', 'hcl'
+]
+keysPresent [
+  'hgt', 'eyr',
+  'hcl', 'pid',
+  'iyr', 'ecl',
+  'byr'
+]
+keysPresent [
+  'byr', 'hgt',
+  'iyr', 'cid',
+  'ecl', 'eyr',
+  'hcl'
+]
+keysPresent [
+  'byr', 'hgt',
+  'eyr', 'pid',
+  'hcl', 'ecl',
+  'cid', 'iyr'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'pid', 'ecl',
+  'cid', 'eyr',
+  'hgt', 'byr'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'eyr', 'byr',
+  'iyr', 'pid',
+  'ecl'
+]
+keysPresent [
+  'pid', 'ecl',
+  'iyr', 'eyr',
+  'hcl', 'hgt',
+  'byr'
+]
+keysPresent [
+  'hgt', 'ecl',
+  'iyr', 'hcl',
+  'cid', 'eyr',
+  'pid'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'pid', 'cid',
+  'byr', 'eyr',
+  'hgt', 'ecl'
+]
+keysPresent [
+  'ecl', 'eyr',
+  'pid', 'hgt',
+  'iyr', 'byr',
+  'hcl'
+]
+keysPresent [
+  'hgt', 'eyr',
+  'ecl', 'hcl',
+  'iyr', 'pid',
+  'byr'
+]
+keysPresent [
+  'pid', 'eyr',
+  'hgt', 'iyr',
+  'byr', 'ecl',
+  'hcl'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'hcl', 'pid',
+  'ecl', 'cid',
+  'iyr', 'byr'
+]
+keysPresent [
+  'iyr', 'pid',
+  'eyr', 'ecl',
+  'hcl', 'hgt',
+  'byr'
+]
+keysPresent [
+  'byr', 'iyr',
+  'hcl', 'pid',
+  'hgt', 'eyr',
+  'ecl'
+]
+keysPresent [
+  'eyr', 'byr',
+  'hgt', 'ecl',
+  'iyr', 'hcl',
+  'pid'
+]
+keysPresent [
+  'pid', 'iyr',
+  'ecl', 'hgt',
+  'hcl', 'byr',
+  'eyr', 'cid'
+]
+keysPresent [
+  'eyr', 'hcl',
+  'ecl', 'byr',
+  'iyr', 'hgt',
+  'cid', 'pid'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'cid', 'hcl',
+  'pid', 'eyr',
+  'byr', 'iyr'
+]
+keysPresent [
+  'hcl', 'pid',
+  'iyr', 'hgt',
+  'eyr', 'byr',
+  'ecl', 'cid'
+]
+keysPresent [
+  'cid', 'hgt',
+  'eyr', 'hcl',
+  'pid', 'iyr',
+  'ecl', 'byr'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'cid', 'pid',
+  'ecl', 'hgt',
+  'hcl', 'byr'
+]
+keysPresent [
+  'byr', 'hcl',
+  'ecl', 'hgt',
+  'eyr', 'iyr',
+  'pid'
+]
+keysPresent [ 'hgt', 'eyr', 'hcl', 'byr', 'iyr', 'ecl' ]
+keysPresent [
+  'iyr', 'hgt',
+  'ecl', 'hcl',
+  'pid', 'eyr',
+  'byr'
+]
+keysPresent [
+  'eyr', 'hcl',
+  'hgt', 'iyr',
+  'ecl', 'pid',
+  'cid', 'byr'
+]
+keysPresent [
+  'hcl', 'byr',
+  'pid', 'hgt',
+  'eyr', 'iyr',
+  'ecl', 'cid'
+]
+keysPresent [
+  'hcl', 'byr',
+  'pid', 'iyr',
+  'cid', 'hgt',
+  'eyr', 'ecl'
+]
+keysPresent [
+  'byr', 'cid',
+  'eyr', 'hcl',
+  'iyr', 'hgt',
+  'pid', 'ecl'
+]
+keysPresent [
+  'byr', 'ecl',
+  'hgt', 'eyr',
+  'cid', 'hcl',
+  'pid'
+]
+keysPresent [
+  'pid', 'byr',
+  'hcl', 'iyr',
+  'ecl', 'eyr',
+  'hgt'
+]
+keysPresent [
+  'byr', 'hcl',
+  'pid', 'hgt',
+  'ecl', 'eyr',
+  'iyr'
+]
+keysPresent [
+  'hcl', 'pid',
+  'cid', 'eyr',
+  'ecl', 'iyr',
+  'hgt', 'byr'
+]
+keysPresent [
+  'byr', 'hcl',
+  'hgt', 'pid',
+  'ecl', 'iyr',
+  'eyr'
+]
+keysPresent [
+  'pid', 'hgt',
+  'byr', 'eyr',
+  'iyr', 'hcl',
+  'ecl'
+]
+keysPresent [
+  'iyr', 'pid',
+  'eyr', 'cid',
+  'ecl', 'hcl',
+  'hgt'
+]
+keysPresent [
+  'eyr', 'byr',
+  'pid', 'ecl',
+  'hcl', 'cid',
+  'hgt', 'iyr'
+]
+keysPresent [
+  'pid', 'hcl',
+  'hgt', 'iyr',
+  'eyr', 'byr',
+  'ecl'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'iyr', 'ecl',
+  'hcl', 'byr',
+  'pid'
+]
+keysPresent [
+  'pid', 'hcl',
+  'hgt', 'ecl',
+  'iyr', 'eyr',
+  'cid', 'byr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'byr', 'hcl',
+  'ecl', 'pid',
+  'iyr'
+]
+keysPresent [ 'pid', 'eyr', 'iyr', 'ecl', 'hgt', 'hcl' ]
+keysPresent [
+  'ecl', 'byr',
+  'iyr', 'eyr',
+  'pid', 'hcl',
+  'hgt'
+]
+keysPresent [
+  'eyr', 'pid',
+  'hgt', 'iyr',
+  'hcl', 'ecl',
+  'byr'
+]
+keysPresent [
+  'ecl', 'iyr',
+  'pid', 'byr',
+  'eyr', 'hgt',
+  'hcl'
+]
+keysPresent [
+  'pid', 'iyr',
+  'ecl', 'hcl',
+  'hgt', 'byr',
+  'eyr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'iyr', 'pid',
+  'byr', 'eyr',
+  'hcl'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'byr', 'pid',
+  'cid', 'ecl',
+  'eyr', 'hgt'
+]
+keysPresent [
+  'byr', 'hgt',
+  'ecl', 'pid',
+  'cid', 'iyr',
+  'hcl', 'eyr'
+]
+keysPresent [
+  'pid', 'eyr',
+  'hcl', 'hgt',
+  'ecl', 'byr',
+  'iyr'
+]
+keysPresent [
+  'pid', 'byr',
+  'hcl', 'iyr',
+  'hgt', 'ecl',
+  'eyr'
+]
+keysPresent [
+  'iyr', 'pid',
+  'ecl', 'hgt',
+  'eyr', 'hcl',
+  'byr'
+]
+keysPresent [
+  'hgt', 'pid',
+  'eyr', 'iyr',
+  'ecl', 'hcl',
+  'byr'
+]
+keysPresent [
+  'byr', 'eyr',
+  'cid', 'ecl',
+  'iyr', 'hgt',
+  'hcl', 'pid'
+]
+keysPresent [
+  'ecl', 'iyr',
+  'hgt', 'hcl',
+  'byr', 'eyr',
+  'pid'
+]
+keysPresent [
+  'hgt', 'byr',
+  'pid', 'iyr',
+  'hcl', 'ecl',
+  'eyr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'iyr', 'byr',
+  'ecl', 'hcl',
+  'pid'
+]
+keysPresent [
+  'ecl', 'pid',
+  'hgt', 'hcl',
+  'eyr', 'cid',
+  'byr', 'iyr'
+]
+keysPresent [
+  'hcl', 'iyr',
+  'ecl', 'byr',
+  'hgt', 'cid',
+  'eyr'
+]
+keysPresent [
+  'eyr', 'hgt',
+  'byr', 'iyr',
+  'ecl', 'hcl',
+  'pid'
+]
+keysPresent [
+  'cid', 'byr',
+  'iyr', 'hgt',
+  'ecl', 'pid',
+  'hcl', 'eyr'
+]
+keysPresent [
+  'cid', 'iyr',
+  'hgt', 'byr',
+  'ecl', 'pid',
+  'eyr', 'hcl'
+]
+keysPresent [
+  'ecl', 'iyr',
+  'eyr', 'hcl',
+  'cid', 'pid',
+  'hgt', 'byr'
+]
+keysPresent [
+  'iyr', 'pid',
+  'byr', 'eyr',
+  'hgt', 'ecl',
+  'hcl'
+]
+keysPresent [
+  'ecl', 'eyr',
+  'pid', 'iyr',
+  'byr', 'hcl',
+  'hgt'
+]
+keysPresent [
+  'ecl', 'pid',
+  'cid', 'byr',
+  'hgt', 'iyr',
+  'hcl', 'eyr'
+]
+keysPresent [ 'cid', 'hgt', 'ecl', 'iyr', 'eyr', 'byr' ]
+keysPresent [
+  'byr', 'iyr',
+  'hgt', 'pid',
+  'hcl', 'eyr',
+  'ecl'
+]
+keysPresent [
+  'pid', 'eyr',
+  'byr', 'ecl',
+  'hcl', 'hgt',
+  'iyr'
+]
+keysPresent [
+  'hgt', 'byr',
+  'ecl', 'hcl',
+  'eyr', 'pid',
+  'iyr'
+]
+keysPresent [
+  'hcl', 'hgt',
+  'byr', 'iyr',
+  'ecl', 'eyr',
+  'pid'
+]
+keysPresent [
+  'iyr', 'pid',
+  'byr', 'ecl',
+  'eyr', 'hgt',
+  'hcl'
+]
+keysPresent [
+  'hcl', 'hgt',
+  'iyr', 'byr',
+  'ecl', 'pid',
+  'eyr'
+]
+keysPresent [
+  'eyr', 'cid',
+  'hgt', 'hcl',
+  'byr', 'pid',
+  'ecl', 'iyr'
+]
+keysPresent [
+  'hcl', 'byr',
+  'pid', 'cid',
+  'hgt', 'ecl',
+  'eyr', 'iyr'
+]
+keysPresent [
+  'hcl', 'pid',
+  'eyr', 'byr',
+  'ecl', 'hgt',
+  'iyr'
+]
+keysPresent [
+  'hgt', 'eyr',
+  'hcl', 'pid',
+  'iyr', 'byr',
+  'ecl'
+]
+keysPresent [
+  'pid', 'hgt',
+  'iyr', 'eyr',
+  'byr', 'hcl',
+  'ecl'
+]
+keysPresent [
+  'hgt', 'cid',
+  'hcl', 'ecl',
+  'eyr', 'byr',
+  'pid', 'iyr'
+]
+keysPresent [
+  'iyr', 'pid',
+  'hgt', 'eyr',
+  'byr', 'ecl',
+  'hcl'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'hcl', 'pid',
+  'hgt', 'cid',
+  'byr', 'ecl'
+]
+keysPresent [
+  'cid', 'byr',
+  'hcl', 'hgt',
+  'eyr', 'iyr',
+  'pid', 'ecl'
+]
+keysPresent [
+  'pid', 'iyr',
+  'cid', 'hcl',
+  'ecl', 'hgt',
+  'eyr', 'byr'
+]
+keysPresent [
+  'eyr', 'byr',
+  'hgt', 'cid',
+  'ecl', 'pid',
+  'iyr', 'hcl'
+]
+keysPresent [
+  'pid', 'hgt',
+  'iyr', 'eyr',
+  'hcl', 'ecl',
+  'byr'
+]
+keysPresent [
+  'iyr', 'byr',
+  'hgt', 'ecl',
+  'eyr', 'hcl',
+  'pid'
+]
+keysPresent [
+  'pid', 'byr',
+  'eyr', 'ecl',
+  'iyr', 'hgt',
+  'hcl'
+]
+keysPresent [
+  'ecl', 'eyr',
+  'pid', 'byr',
+  'hgt', 'iyr',
+  'hcl'
+]
+keysPresent [ 'hcl', 'hgt', 'pid', 'eyr', 'iyr', 'byr' ]
+keysPresent [
+  'byr', 'pid',
+  'iyr', 'eyr',
+  'cid', 'ecl',
+  'hgt'
+]
+keysPresent [
+  'ecl', 'byr',
+  'eyr', 'iyr',
+  'hgt', 'hcl',
+  'pid'
+]
+keysPresent [
+  'hgt', 'hcl',
+  'pid', 'cid',
+  'iyr', 'ecl',
+  'byr', 'eyr'
+]
+keysPresent [
+  'hgt', 'byr',
+  'ecl', 'pid',
+  'cid', 'eyr',
+  'hcl', 'iyr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'iyr', 'pid',
+  'eyr', 'byr',
+  'hcl'
+]
+keysPresent [
+  'byr', 'ecl',
+  'cid', 'pid',
+  'hcl', 'iyr',
+  'hgt', 'eyr'
+]
+keysPresent [
+  'iyr', 'eyr',
+  'hgt', 'hcl',
+  'byr', 'pid',
+  'cid', 'ecl'
+]
+keysPresent [ 'hcl', 'pid', 'iyr', 'byr', 'hgt', 'eyr' ]
+keysPresent [
+  'pid', 'hgt',
+  'ecl', 'hcl',
+  'cid', 'eyr',
+  'byr', 'iyr'
+]
+keysPresent [
+  'eyr', 'byr',
+  'hgt', 'cid',
+  'pid', 'ecl',
+  'hcl', 'iyr'
+]
+keysPresent [
+  'ecl', 'pid',
+  'hgt', 'iyr',
+  'byr', 'eyr',
+  'hcl'
+]
+keysPresent [
+  'byr', 'hgt',
+  'hcl', 'pid',
+  'eyr', 'cid',
+  'ecl', 'iyr'
+]
+keysPresent [
+  'ecl', 'hgt',
+  'pid', 'cid',
+  'eyr', 'byr',
+  'iyr'
+]
+keysPresent [
+  'ecl', 'eyr',
+  'iyr', 'pid',
+  'byr', 'hcl',
+  'cid', 'hgt'
+]
+keysPresent [
+  'iyr', 'hgt',
+  'cid', 'eyr',
+  'byr', 'pid',
+  'ecl', 'hcl'
+]
+keysPresent [
+  'hgt', 'eyr',
+  'hcl', 'iyr',
+  'pid', 'byr',
+  'ecl'
+]
+keysPresent [
+  'hgt', 'ecl',
+  'iyr', 'hcl',
+  'byr', 'eyr',
+  'pid'
+]
+keysPresent [
+  'byr', 'hcl',
+  'pid', 'ecl',
+  'iyr', 'hgt',
+  'eyr'
+]
+keysPresent [
+  'ecl', 'byr',
+  'iyr', 'pid',
+  'eyr', 'hcl',
+  'cid', 'hgt'
+]
+validPassportCount 260
